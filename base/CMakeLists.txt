@@ -18,7 +18,7 @@ else()
 	add_compile_options(-Wall -Wextra -Wpedantic -std=c++23)
 endif()
 
-add_library(${PROJECT_NAME} STATIC ${BASE_SRC})
+add_library(${PROJECT_NAME} SHARED ${BASE_SRC})
 add_library(layer::base ALIAS ${PROJECT_NAME})
 
 target_include_directories(

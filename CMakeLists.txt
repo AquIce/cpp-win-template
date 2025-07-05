@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 4.0)
 project(
-	nrlauncher
+	cpp-win-template	
 	VERSION 0.1.0
 	LANGUAGES C CXX
 )
